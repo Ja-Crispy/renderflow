@@ -1,0 +1,36 @@
+# Large model checkpoints
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.model
+checkpoints/*.pkl
+checkpoints/whisper/*.pt
+checkpoints/auxiliary/*.pth
+checkpoints/auxiliary/*.pt
+checkpoints/auxiliary/*.pkl
+checkpoints/auxiliary/*.model
+checkpoints/auxiliary/*.zip
+!checkpoints/.gitkeep
+!checkpoints/whisper/.gitkeep
+!checkpoints/auxiliary/.gitkeep
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Temporary files
+temp/
+__pycache__/
+*.py[cod]
+.gradio/
+logs/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
